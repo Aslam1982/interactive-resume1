@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="interresume.css">
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <div class="profile-picture">
+                <img src="profile.jpg" alt="Profile Picture">
+            </div>
+            <div class="profile-details">
+                <h1>Muhammad Aslam</h1>
+                <p class="job-title">Software Developer</p>
+                <p class="location">Karachi, Pakistan</p>
+                <div class="contact">
+                    <p><strong>Email:</strong> afzalabbasi2014@gmail.com</p>
+                    <p><strong>Phone:</strong> +92-312-1043803</p>
+                    <p><strong>Location:</strong> Karachi, Pakistan</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com" class="social-link" target="_blank">LinkedIn</a>
+                    <a href="https://github.com" class="social-link" target="_blank">GitHub</a>
+                    <a href="https://vercel.com" class="social-link" target="_blank">Vercel</a>
+                    <a href="https://facebook.com" class="social-link" target="_blank">Facebook</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills-section">
+            <button class="toggle-btn" id="toggle-skills">Show Skills</button>
+            <div class="skills-content" id="skills-content">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="experience-section">
+            <button class="toggle-btn" id="toggle-experience">Show Experience</button>
+            <div class="experience-content" id="experience-content">
+                <h2>Experience</h2>
+                <div class="experience-item">
+                    <h3>Front-End Developer</h3>
+                    <p><strong>Company:</strong> XYZ Solutions</p>
+                    <p><strong>Duration:</strong> Jan 2022 - Present</p>
+                    <p class="exp-details">Developed and maintained web applications, collaborated with the design team to create interactive features.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="education-section">
+            <button class="toggle-btn" id="toggle-education">Show Education</button>
+            <div class="education-content" id="education-content">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Bachelor of Computer Science</h3>
+                    <p><strong>University:</strong> XYZ University</p>
+                    <p><strong>Duration:</strong> 2017 - 2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="interresume.js"></script>
+</body>
+</html>
