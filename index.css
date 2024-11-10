@@ -1,0 +1,219 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 20px;
+}
+
+.resume-container {
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(145deg, #6a11cb, #2575fc);
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-section:hover {
+    background: linear-gradient(145deg, #2575fc, #6a11cb);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.profile-section:hover .profile-picture img {
+    transform: scale(1.1);
+}
+
+.profile-details h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.profile-details .job-title {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.profile-details .location {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-link {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #ffd700;
+}
+
+/* Toggle Button */
+.toggle-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Hidden content */
+.skills-content, .experience-content, .education-content {
+    display: none;
+}
+
+/* Skills Section */
+.skills-section {
+    margin-bottom: 30px;
+    background: linear-gradient(145deg, #8e44ad, #3498db);
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.skills-section:hover {
+    background: linear-gradient(145deg, #3498db, #8e44ad);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skills-section h2 {
+    font-size: 22px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.skills-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-section li {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+/* Experience Section */
+.experience-section {
+    margin-bottom: 30px;
+    background: linear-gradient(145deg, #2c3e50, #34495e);
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.experience-section:hover {
+    background: linear-gradient(145deg, #34495e, #2c3e50);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.experience-section h2 {
+    font-size: 22px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.experience-item h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.experience-item p {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.experience-item .exp-details {
+    font-size: 14px;
+    color: #fff;
+    display: none;
+}
+
+/* Education Section */
+.education-section {
+    margin-bottom: 30px;
+    background: linear-gradient(145deg, #27ae60, #2ecc71);
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.education-section:hover {
+    background: linear-gradient(145deg, #2ecc71, #27ae60);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.education-section h2 {
+    font-size: 22px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.education-item h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.education-item p {
+    font-size: 14px;
+    color: #ddd;
+}
